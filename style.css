@@ -12,8 +12,8 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 65px;
-    height: 65px;
+    width: 70px;
+    height: 70px;
     border: 2px solid black;
     margin: 0;
 }
@@ -28,6 +28,10 @@
 
 table {
   border-spacing: 0;
+}
+
+#magnesium .name{
+    font-size: 14px;
 }
 
 
