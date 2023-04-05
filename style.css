@@ -34,4 +34,19 @@ table {
     font-size: 14px;
 }
 
+#period3Space {
+    width: 630px;
+    height: 70px;
+}
 
+#warpper {
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+form {
+    margin: 20px auto;
+    width: fit-content;
+    height: fit-content;
+}
