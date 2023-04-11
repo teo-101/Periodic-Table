@@ -16,6 +16,7 @@
     height: 70px;
     border: 2px solid black;
     margin: 0;
+    transition: all .3s ease-in-out;
 }
 
 .symbol {
@@ -39,6 +40,14 @@ table {
     height: 70px;
 }
 
+#LanthanideSpace {
+    background-color: lightgray;
+}
+
+#ActinideSpace {
+    background-color: lightgray;
+}
+
 #warpper {
     margin: auto;
     width: fit-content;
@@ -49,4 +58,41 @@ form {
     margin: 20px auto;
     width: fit-content;
     height: fit-content;
+}
+
+.cell:hover {
+    transform: scale(1.5);
+    background-color: honeydew;
+}
+
+.Alkali {
+    background-color: red;
+}
+
+.Earth {
+    background-color: yellow;
+}
+
+.Transition {
+    background-color: palevioletred;
+}
+
+.Semi {
+    background-color: palegreen;
+}
+
+.Basic {
+    background-color: lightskyblue ;
+}
+
+.Nonmetal {
+    background-color: green;
+}
+
+.Halogen {
+    background-color: blue;
+}
+
+.NobleGas {
+    background-color: orange;
 }

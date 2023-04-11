@@ -10,9 +10,9 @@ form.addEventListener('submit', (event) => {
 
     for (let i = 0; i < elements.length; i++) {
         if (elements[i].classList.contains(selectedType)) {
-            elements[i].style.display = 'block';
+            elements[i].style.opacity = '1';
         } else {
-            elements[i].style.display = 'none';
+            elements[i].style.opacity = '0.3';
         }
     }
 });
