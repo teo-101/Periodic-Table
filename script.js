@@ -1,8 +1,6 @@
 const form = document.querySelector('form');
 
-form.addEventListener('submit', (event) => {
-    event.preventDefault(); // prevents the form from submitting and refreshing the page
-
+form.addEventListener('click', (event) => {
     const typeOfElem = document.querySelector('input[name="typeOfElem"]:checked');
     const selectedType = typeOfElem ? typeOfElem.nextElementSibling.innerHTML : '';
 

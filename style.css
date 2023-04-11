@@ -31,10 +31,6 @@ table {
   border-spacing: 0;
 }
 
-#magnesium .name{
-    font-size: 14px;
-}
-
 #period3Space {
     width: 630px;
     height: 70px;
@@ -54,7 +50,65 @@ table {
     height: fit-content;
 }
 
+#phosphorus .name{
+    font-size: 14.5px;
+}
+
+#manganese .name{
+    font-size: 15px;
+}
+
+#molybdenum .name{
+    font-size: 12.5px;
+}
+
+#technetium .name {
+    font-size: 15px;
+}
+
+#magnesium .name{
+    font-size: 14px;
+}
+
+#rutherfordium .name {
+    font-size: 12px;
+}
+
+#seaborgium .name {
+    font-size: 14.5px;
+}
+
+#meitnerium .name {
+    font-size: 14.5px;
+}
+
+#darmstadtium .name {
+    font-size: 12px;
+}
+
+#roentgenium .name {
+    font-size: 13.5px;
+}
+
+#copernicium .name {
+    font-size: 13.5px;
+}
+
+#moscovium .name {
+    font-size: 14px;
+}
+
+#livermorium .name {
+    font-size: 13.5px;
+}
+
+#germanium .name {
+    font-size: 15px;
+}
+
 form {
+    display: flex;
+    justify-content: center;
     margin: 20px auto;
     width: fit-content;
     height: fit-content;
