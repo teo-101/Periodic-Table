@@ -12,10 +12,11 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 70px;
-    height: 70px;
+    width: 68.5px;
+    height: 68.5px;
     border: 2px solid black;
     margin: 0;
+    box-shadow: none;
     transition: all .3s ease-in-out;
 }
 
@@ -34,14 +35,6 @@ table {
 #period3Space {
     width: 630px;
     height: 70px;
-}
-
-#LanthanideSpace {
-    background-color: lightgray;
-}
-
-#ActinideSpace {
-    background-color: lightgray;
 }
 
 #warpper {
@@ -116,6 +109,7 @@ form {
 
 .cell:hover {
     transform: scale(1.5);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     background-color: honeydew;
 }
 
@@ -129,6 +123,14 @@ form {
 
 .Transition {
     background-color: palevioletred;
+}
+
+.Lanthanoid {
+    background-color: lightsalmon;
+}
+
+.Actinide {
+    background-color: lightpink;
 }
 
 .Semi {
@@ -167,4 +169,9 @@ input[type="radio"] {
 
   input[type="radio"]:checked + span {
     background-color: #ccc;
+  }
+
+  #transitionSpace {
+    width: 100%;
+    height: 10px;
   }
