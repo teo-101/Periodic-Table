@@ -29,7 +29,12 @@ body{
 
 .symbol {
     font-weight: bold;
+    font-size: 18px;
     font-family: 'Twentieth Television', sans-serif;
+}
+
+td {
+    font-size: 13px;
 }
 
 .atomicWeight {
@@ -171,8 +176,9 @@ input[type="radio"] {
   input[type="radio"] + span {
     cursor: pointer;
     padding: 0.5rem;
-    border-radius: 0.25rem;
+    border-radius: 0.5rem;
     border: 1px solid #ccc;
+    margin: 0 5px 0;
   }
 
   input[type="radio"]:checked + span {
