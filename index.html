@@ -37,7 +37,7 @@
         <td></td>
         <td></td>
         <td>
-          <div class="cell NobleGas" id="helium">
+          <div class="cell Nonmetal NobleGas" id="helium">
             <div class="atomicNum">2</div>
             <div class="symbol">He</div>
             <div class="name">helium</div>
@@ -113,7 +113,7 @@
           </div>
         </td>
         <td>
-          <div class="cell NobleGas" id="neon">
+          <div class="cell Nonmetal NobleGas" id="neon">
             <div class="atomicNum">10</div>
             <div class="symbol">Ne</div>
             <div class="name">neon</div>
@@ -189,7 +189,7 @@
           </div>
         </td>
         <td>
-          <div class="cell NobleGas" id="argon">
+          <div class="cell Nonmetal NobleGas" id="argon">
             <div class="atomicNum">18</div>
             <div class="symbol">Ar</div>
             <div class="name">argon</div>
@@ -335,7 +335,7 @@
           </div>
         </td>
         <td>
-          <div class="cell NobleGas" id="krypton">
+          <div class="cell Nonmetal NobleGas" id="krypton">
             <div class="atomicNum">36</div>
             <div class="symbol">Kr</div>
             <div class="name">krypton</div>
@@ -486,7 +486,7 @@
           </div>
         </td>
         <td>
-          <div class="cell NobleGas" id="xenon">
+          <div class="cell Nonmetal NobleGas" id="xenon">
             <div class="atomicNum">54</div>
             <div class="symbol">Xe</div>
             <div class="name">xenon</div>
@@ -627,7 +627,7 @@
           </div>
         </td>
         <td>
-          <div class="cell NobleGas" id="radon">
+          <div class="cell Nonmetal NobleGas" id="radon">
             <div class="atomicNum">86</div>
             <div class="symbol">Rn</div>
             <div class="name">radon</div>
@@ -769,7 +769,7 @@
           </div>
         </td>
         <td>
-          <div class="cell NobleGas" id="oganesson">
+          <div class="cell Nonmetal NobleGas" id="oganesson">
             <div class="atomicNum">118</div>
             <div class="symbol">Og</div>
             <div class="name">oganesson</div>
@@ -780,16 +780,43 @@
     </table>
   </div>
   <form>
-    <input type="radio" name="typeOfElem"><label>Metal</label><br>
-    <input type="radio" name="typeOfElem"><label>Nonmetal</label><br>
-    <input type="radio" name="typeOfElem"><label>Alkali</label><br>
-    <input type="radio" name="typeOfElem"><label>Earth</label><br>
-    <input type="radio" name="typeOfElem"><label>Transition</label><br>
-    <input type="radio" name="typeOfElem"><label>Basic</label><br>
-    <input type="radio" name="typeOfElem"><label>Semi</label><br>
-    <input type="radio" name="typeOfElem"><label>Halogen</label><br>
-    <input type="radio" name="typeOfElem"><label>NobleGas</label><br>
-</form>
-<script src="script.js"></script>
+    <label>
+      <input type="radio" name="typeOfElem" value="Metal">
+      <span>Metal</span>
+    </label>
+    <label>
+      <input type="radio" name="typeOfElem" value="Nonmetal">
+      <span>Nonmetal</span>
+    </label>
+    <label>
+      <input type="radio" name="typeOfElem" value="Alkali">
+      <span>Alkali</span>
+    </label>
+    <label>
+      <input type="radio" name="typeOfElem" value="Earth">
+      <span>Earth</span>
+    </label>
+    <label>
+      <input type="radio" name="typeOfElem" value="Transition">
+      <span>Transition</span>
+    </label>
+    <label>
+      <input type="radio" name="typeOfElem" value="Basic">
+      <span>Basic</span>
+    </label>
+    <label>
+      <input type="radio" name="typeOfElem" value="Semi">
+      <span>Semi</span>
+    </label>
+    <label>
+      <input type="radio" name="typeOfElem" value="Halogen">
+      <span>Halogen</span>
+    </label>
+    <label>
+      <input type="radio" name="typeOfElem" value="NobleGas">
+      <span>NobleGas</span>
+    </label>
+  </form>
+  <script src="script.js"></script>
 </body>
 </html>
