@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Twentieth Television', sans-serif;
+    background-color: honeydew;
 }
 
 #pageTitle {
@@ -178,7 +179,6 @@ input[type="radio"] {
     padding: 0.5rem;
     border-radius: 0.5rem;
     border: 1px solid #ccc;
-    margin: 0 5px 0;
   }
 
   input[type="radio"]:checked + span {
